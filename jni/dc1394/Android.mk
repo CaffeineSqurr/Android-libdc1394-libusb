@@ -26,7 +26,7 @@ LOCAL_C_INCLUDES += $(LOCAL_PATH)/../ \
     $(LOCAL_PATH)/vendor \
     $(LOCAL_PATH)/usb
 
-LOCAL_CFLAGS += -W -Wall
+LOCAL_CFLAGS += -w
 LOCAL_CFLAGS += -fPIC -DPIC
 LOCAL_SHARED_LIBRARIES := libusb
 
