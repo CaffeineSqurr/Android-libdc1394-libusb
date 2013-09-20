@@ -4,17 +4,15 @@ include $(CLEAR_VARS)
 
 LOCAL_ARM_MODE := arm
 
-LOCAL_SRC_FILES:= \
-	libusb/core.c \
-	libusb/descriptor.c \
-	libusb/io.c \
-	libusb/sync.c \
-	libusb/os/linux_usbfs.c
+LOCAL_SRC_FILES:= core.c \
+	descriptor.c \
+	io.c \
+	sync.c \
+	os/linux_usbfs.c
 
 
-LOCAL_C_INCLUDES += $(LOCAL_PATH)/android \
-	$(LOCAL_PATH)/libusb \
-	$(LOCAL_PATH)/libusb/os
+LOCAL_C_INCLUDES += $(LOCAL_PATH) \
+	$(LOCAL_PATH)/os
 
 LOCAL_CFLAGS += -W -Wall
 LOCAL_CFLAGS += -fPIC -DPIC
