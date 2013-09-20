@@ -15,7 +15,7 @@ Shared Library
 By default these libraries compile as shared libraries and must
 be copied to the target android device and placed in `/system/lib`.
 
-Inside of the root directory run 'ndk-build' push the generated libraries
+Inside of the root directory run `ndk-build` push the generated libraries
 from `./libs/<target-platform>/` to `/system/lib`
 
 Static Library
