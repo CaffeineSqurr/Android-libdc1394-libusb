@@ -3,7 +3,7 @@ Android-libcd1394-libusb
 
 This is a combination of the libusb1 and libdc1394 libraries.
 It contains the software necessary to access
-and control cameras which conform to the IEE 1394 spec from 
+and control cameras which conform to the IEEE 1394 spec from 
 android programs.
 
 This project was motivated by my work in computer vision and
