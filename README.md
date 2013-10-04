@@ -1,4 +1,4 @@
-Android-libcd1394-libusb
+Android-libdc1394-libusb
 ========================
 
 This is a combination of the libusb1 and libdc1394 libraries.
